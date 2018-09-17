@@ -20,5 +20,13 @@ public class Main {
         System.out.println(bankAccount.getBalance());
 
 
+
+        new Toy();
+        Toy car = new Toy();
+
+        car.setPrice(24.99);
+
+        System.out.println(car.getPrice());
+
     }
 }
