@@ -1,6 +1,6 @@
 package firstLesson;
 
-public class book {
+public class Book {
 
     private double price;
 
