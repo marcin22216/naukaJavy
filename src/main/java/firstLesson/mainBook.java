@@ -7,7 +7,7 @@ public class MainBook {
         Book stephenKing = new Book();
 
         stephenKing.setPrice(19.99);
-        System.out.println(Book.getPrice());
+        System.out.println(stephenKing.getPrice());
 
     }
 
