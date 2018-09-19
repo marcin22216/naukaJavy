@@ -1,22 +1,21 @@
 package firstLesson;
 
-public class Toy {
-
+public class book {
 
     private double price;
 
-    public void setPrice(double cenaProduktu)
+    public void setPrice(double cenaKsiazki)
     {
 
-        this.price = cenaProduktu;
+        this.price = cenaKsiazki;
+
     }
 
     public double getPrice()
     {
 
         return this.price;
+
     }
-
-
 
 }
