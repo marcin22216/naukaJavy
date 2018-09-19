@@ -1,13 +1,13 @@
 package firstLesson;
 
-public class mainBook {
+public class MainBook {
 
     public static void main(String[] args) {
 
-        book StephenKing = new book();
+        Book stephenKing = new Book();
 
-        book.setPrice(19.99);
-        System.out.println(book.getPrice());
+        stephenKing.setPrice(19.99);
+        System.out.println(stephenKing.getPrice());
 
     }
 
