@@ -13,6 +13,8 @@ public class MyWash {
         this.temeraure = temeraure;
     }
 
+    //To jest moja klaska.
+    //Jak widzisz w metodzie ponizej uzylem instrukcji warunkowej 'if'
 
     public void checkTemperature()
     {

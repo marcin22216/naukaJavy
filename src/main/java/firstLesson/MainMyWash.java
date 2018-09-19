@@ -7,7 +7,7 @@ public class MainMyWash {
 
         MyWash myWash = new MyWash();
 
-        myWash.setTemeraure(40);
+        myWash.setTemeraure(-20);
 
         myWash.checkTemperature();
     }
