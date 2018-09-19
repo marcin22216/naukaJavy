@@ -4,11 +4,10 @@ public class MainBook {
 
     public static void main(String[] args) {
 
-        Book stephenKing = new Book();
+        Book book = new Book();
 
-        stephenKing.setPrice(19.99);
-        System.out.println(Book.getPrice());
+        book.setPrice(19.99);
 
+        System.out.println(book.getPrice());
     }
-
 }
