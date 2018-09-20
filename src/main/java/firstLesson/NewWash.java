@@ -2,13 +2,13 @@ package firstLesson;
 
 public class NewWash {
 
-    private int state;
+    private boolean state;
 
-    public int getState()
+    public boolean getState()
     {
         return state;
     }
-    public void setState(int state)
+    public void setState(boolean state)
     {
 
         this.state = state;

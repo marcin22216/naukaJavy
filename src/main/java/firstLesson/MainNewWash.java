@@ -6,7 +6,7 @@ public class MainNewWash {
 
         NewWash washer = new NewWash();
 
-        washer.setState(3);
+        washer.setState();
 
         washer.checkState();
 
