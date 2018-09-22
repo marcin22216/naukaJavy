@@ -2,21 +2,19 @@ package firstLesson;
 
 public class NewWash {
 
-    private boolean state;
+    private boolean isOn;
 
-    public boolean getState()
-    {
-        return state;
+    public boolean isOn() {
+        return isOn;
     }
-    public void setState(boolean state)
-    {
 
-        this.state = state;
-
+    public void setOn(boolean on) {
+        isOn = on;
     }
+
     public void checkState()
     {
-        if (this.state == true)
+        if (this.isOn == true)
         {
             System.out.println("ON");
         }
