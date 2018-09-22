@@ -6,9 +6,9 @@ public class MainNewWash {
 
         NewWash washer = new NewWash();
 
-        washer.setOn(true);
+        washer.setIsOn(true);
 
-        washer.checkState();
+        washer.startWorking();
 
     }
 

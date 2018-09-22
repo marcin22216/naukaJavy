@@ -8,19 +8,19 @@ public class NewWash {
         return isOn;
     }
 
-    public void setOn(boolean on) {
+    public void setIsOn(boolean on) {
         isOn = on;
     }
 
-    public void checkState()
+    public void startWorking()
     {
         if (this.isOn == true)
         {
-            System.out.println("ON");
+            System.out.println("Jestem wlaczony, bede pracowac");
         }
         else
         {
-            System.out.println("OFF");
+            System.out.println("Jestem wylaczony - nic nie robie");
         }
 
     }
