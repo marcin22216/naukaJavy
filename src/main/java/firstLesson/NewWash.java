@@ -16,7 +16,7 @@ public class NewWash {
     }
     public void checkState()
     {
-        if (this.state == 1)
+        if (this.state == true)
         {
             System.out.println("ON");
         }
