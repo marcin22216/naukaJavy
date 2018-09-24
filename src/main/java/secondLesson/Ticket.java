@@ -1,15 +1,18 @@
 package secondLesson;
 
 public class Ticket {
-    private boolean vaildated;
+    private boolean isVaildated;
 
     public boolean isVaildated()
     {
-        return vaildated;
+        return isVaildated;
     }
-    public void setVaildated(boolean vaildated)
+    public void setIsVaildated(boolean YES) {isVaildated = YES;}
+
+    public void checkVaildate()
+
     {
-        if (this.vaildated == true)
+        if (this.isVaildated == true)
         {
             System.out.println("W porzadku, milej pdrozy");
         }

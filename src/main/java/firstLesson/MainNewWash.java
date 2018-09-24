@@ -6,7 +6,7 @@ public class MainNewWash {
 
         NewWash washer = new NewWash();
 
-        washer.setIsOn(true);
+        washer.setIsOn(false);
 
         washer.startWorking();
 
