@@ -2,8 +2,8 @@ package TicketAndConductor;
 
 public class Conductor {
 
-    //tak jak ustalilismy na poczatku nie potrzebuje w tej klasie zadnych pol. Bo mnie w ogole nie obhodzi trzymanie jakiegokolwiek stanu danego obiektu.
-    // nie chce wiedziec jak danych obiekt klasy Conducotr ma na imie, ile ma lat itp itd
+    //tak jak ustalilismy na poczatku - nie potrzebuje w tej klasie zadnych pol. Bo mnie w ogole nie obchodzi trzymanie jakiegokolwiek stanu danego obiektu.
+    // nie chce wiedziec jak dany obiekt klasy Conducotr ma na imie, ile ma lat itp itd
 
     // to co ja POTRZEBUJE by dany konduktor robil to jedna rzecz: kasowal bilety. A jest to czynnosc (czasownik} wiec potrzebuje metody
     // a oto ona:
@@ -19,9 +19,9 @@ public class Conductor {
         // - i niesluchana wazna rzecz: w parametrze metody mamy szufladke do ktorej trzeba bedzie wlozyc bilet ktory bedziemy chcieli skasowac. Do tego biletu w ciele metody
         // moge sie dobrac przez zmienna 'ticketForCheckAndValidate'
 
-        //ok. To teraz implementuje wnetrze metedy. To co musze zrobic to:
+        //ok. To teraz implementuje ciala metedy. To co musze zrobic to:
         // 1) sprawdzic czy dany bilet jest skasowany.
-        // 2) Jak nie jest to go skasowac i wyswietlic komunikt. A jak nie jest - to po prostu wyswietlic adekwatny komunikat.
+        // 2) jak nie jest to go skasowac i wyswietlic komunikt. A jak nie jest - to po prostu wyswietlic adekwatny komunikat.
 
         // no to do dziela:
 
