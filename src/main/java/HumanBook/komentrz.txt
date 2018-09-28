@@ -1,0 +1,24 @@
+Hej.
+
+W klasie Book:
+
+Masz niedokonczony setter brakuje ciala metody czyli nawiasow {} i jakiegos kodu we wnetrzu tych nawiasow.
+
+Jesli chodzi o klase Human to tak:
+
+Fajnie zrobiles metode 'checkPrice'
+
+Jedna uwaga. W jej wnetrzu nie masz takiej zmiennej jak 'priceForCheck' dlatego NIE mozesz napisac:
+
+if (priceForCheck >= 100)  // to jest zle
+
+Masz natomiast zmienna "Book priceForCheck". Tu uwaga na marginesie:
+
+zmianna priceForCheck jest typu Book - czyli albo typ jest zly (moze chciales tam dac double? -> double priceForCheck ) albo nazwa zmiennej mogla byc lepsza np: Book book
+
+Jak pojdziesz w strone Book book to wtedy mozesz - uzywajac gettera - wyciagnac ze zmienej typu Book jej cene (uzywajac na tej zmiennej gettera)
+
+Pytaj na fb jak cos nie wiesz :)
+
+pzdr
+
