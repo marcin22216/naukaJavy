@@ -6,7 +6,7 @@ public class MainSellerBoy {
 
         Seller seller = new Seller();
 
-        age.setAge(17);
+        age.setAge(19);
 
         seller.checkAge(age);
     }
