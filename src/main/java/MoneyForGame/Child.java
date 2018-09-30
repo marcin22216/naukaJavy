@@ -4,7 +4,7 @@ public class Child {
     private double myMoney;
 
     public double getMyMoney()
-    { return myMoney; }
+    { return myMoney + cardMoney; }
 
     public void setMyMoney(double myMoney)
     { this.myMoney = myMoney; }

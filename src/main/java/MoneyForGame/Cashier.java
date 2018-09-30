@@ -18,14 +18,20 @@ public class Cashier {
             {
                 System.out.println("Wszystko w porzadku, oto twoja gra");
 
-                money.getMyMoney() - game.getGamePrice() = money.setMyMoney(money);
+                double nowaKasaKonto = money.getCardMoney() - game.getGamePrice();
+
+                money.setMyMoney(nowaKasaKonto);
             }
         }
         else
         {
             System.out.println("Sprzedaje");
+
+            double nowaKasa = money.getMyMoney() - game.getGamePrice();
+
+            money.setMyMoney(nowaKasa);
         }
-        System.out.println("Zostalo ci" + money.getMyMoney(money) "pieniedzy");
+        System.out.println("Zostalo ci "  + money.getMyMoney() +  " zl pieniedzy");
     }
 
 }

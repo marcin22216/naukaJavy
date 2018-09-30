@@ -14,9 +14,9 @@ public class MainGame {
 
         Game game = new Game();
 
-        money.setMyMoney(300);
+        money.setMyMoney(0);
         game.setGamePrice(99);
-        cardMoney.setCardMoney(0);
+        cardMoney.setCardMoney(200);
         cashier.checkMoney(money, game, cardMoney);
 
 
