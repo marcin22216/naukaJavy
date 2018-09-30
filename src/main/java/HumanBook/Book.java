@@ -8,5 +8,8 @@ public class Book {
     { return bookPrice; }
 
     public void setBookPrice(double bookPrice)
+    {
+        this.bookPrice = bookPrice;
+    }
 
 }
