@@ -8,11 +8,11 @@ public class Cashier {
 
         if (money.getMyMoney() < game.getGamePrice())
         {
-            System.out.println("Sprzedaje");
+            System.out.println("Nie sprzedaje, masz za mało pieniedzy");
         }
         else
         {
-            System.out.println("Nie sprzedaje, masz za malo pieniedzy");
+            System.out.println("Sprzedaje");
         }
     }
 

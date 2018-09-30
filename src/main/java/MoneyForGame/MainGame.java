@@ -6,15 +6,15 @@ public class MainGame {
 
     public static void main(String[] args) {
 
-        Child myMoney = new Child();
+        Child money = new Child();
 
         Cashier cashier = new Cashier();
 
         Game game = new Game();
 
-        myMoney.setMyMoney(50.50);
+        money.setMyMoney(50.50);
         game.setGamePrice(99);
-        cashier.checkMoney(myMoney);
+        cashier.checkMoney(money, game);
 
 
 
