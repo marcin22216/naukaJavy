@@ -2,12 +2,12 @@ package HumanBook;
 
 public class Human {
 
-    public double checkPrice (Book book)
+    public void checkPrice (Book book)
     {
         System.out.println("Dzien dobry ile kosztuje ksiazka");
-        {
 
-        if (double book >= 100)
+
+        if (book.getBookPrice() < 100)
         {
             System.out.println("OK Biore!");
         }
@@ -15,6 +15,7 @@ public class Human {
         {
             System.out.println("Za Droga!");
         }
+
     }
 
 
