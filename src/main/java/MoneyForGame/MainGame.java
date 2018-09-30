@@ -8,13 +8,16 @@ public class MainGame {
 
         Child money = new Child();
 
+        Child cardMoney = new Child();
+
         Cashier cashier = new Cashier();
 
         Game game = new Game();
 
-        money.setMyMoney(50.50);
+        money.setMyMoney(50);
         game.setGamePrice(99);
-        cashier.checkMoney(money, game);
+        cardMoney.setCardMoney(40);
+        cashier.checkMoney(money, game, cardMoney);
 
 
 
