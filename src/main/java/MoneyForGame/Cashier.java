@@ -17,12 +17,15 @@ public class Cashier {
             else
             {
                 System.out.println("Wszystko w porzadku, oto twoja gra");
+
+                money.getMyMoney() - game.getGamePrice() = money.setMyMoney(money);
             }
         }
         else
         {
             System.out.println("Sprzedaje");
         }
+        System.out.println("Zostalo ci" + money.getMyMoney(money) "pieniedzy");
     }
 
 }

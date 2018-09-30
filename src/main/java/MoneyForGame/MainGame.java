@@ -14,10 +14,11 @@ public class MainGame {
 
         Game game = new Game();
 
-        money.setMyMoney(50);
+        money.setMyMoney(300);
         game.setGamePrice(99);
-        cardMoney.setCardMoney(40);
+        cardMoney.setCardMoney(0);
         cashier.checkMoney(money, game, cardMoney);
+
 
 
 
