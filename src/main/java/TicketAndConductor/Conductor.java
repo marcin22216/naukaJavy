@@ -31,6 +31,11 @@ public class Conductor {
         if(ticketForCheckAndValidate.isValidate() == true)
         {
             System.out.println("Drogi pasazerze! Twoj bilet jest juz skasowany! Bedzie kara!");
+            int liczbaKar = ticketForCheckAndValidate.getNumberOfPenalties() + 1;
+            ticketForCheckAndValidate.setNumberOfPenalties(liczbaKar);
+
+            System.out.println();
+            System.out.println("Twoja liczba kar wynosi:" + ticketForCheckAndValidate.getNumberOfPenalties());
         }
         else
         {

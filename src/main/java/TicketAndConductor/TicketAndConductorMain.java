@@ -65,6 +65,10 @@ public class TicketAndConductorMain {
         //Tworze nowy obiekt Conducotr i przypisuje go do zmiennej
         Conductor conductor = new Conductor();
 
+        Ticket numberOfPenalties = new Ticket();
+
+        ticket.setNumberOfPenalties(2);
+
         //sprawdzam stan biletu przed skasowaniem:
         System.out.println("Wartosc pola 'isValidate' biletu PRZED skasowaniem rowna sie: " + ticket.isValidate());
         // nowa pusta linia (by byl odstep miedzy komunikatami)
@@ -80,6 +84,7 @@ public class TicketAndConductorMain {
 
         //probuje jeszcze raz skasowan ten sam bilet (ktory zostal wczesniej skasowany)
         System.out.println("Ponowna kontrola tego samego biletu:");
+
         conductor.validateTicket(ticket);
 
 

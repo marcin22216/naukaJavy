@@ -16,6 +16,6 @@ public class CarouselChild {
     { return childGrowth; }
 
     public void setChildGrowth(double childGrowth)
-    { this.childGrowth = childGrowth;  }
+    { this.childGrowth = childGrowth; }
 
 }

@@ -23,6 +23,9 @@ public class Ticket {
     public int getNumberOfPenalties()
     { return numberOfPenalties; }
 
+    public void setNumberOfPenalties(int numberOfPenalties)
+    { this.numberOfPenalties = numberOfPenalties; }
+
 
 
     // przejdz teraz spowrotem do maina czyli klasy TicketAndConductorMain
