@@ -30,7 +30,7 @@ public class Conductor {
         // sprawdzam stan aktualnego biletu poprzez wywolanie na tym bilecie gettera
         if(ticketForCheckAndValidate.isValidate() == true)
         {
-            System.out.println("Drogi pasazerze! Twoj bilet jest juz skasowany!");
+            System.out.println("Drogi pasazerze! Twoj bilet jest juz skasowany! Bedzie kara!");
         }
         else
         {

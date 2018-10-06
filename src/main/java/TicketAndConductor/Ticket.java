@@ -7,6 +7,8 @@ public class Ticket {
     // Oto to pole:
     private boolean isValidate;
 
+    private int numberOfPenalties;
+
 
     // to jest getter, ktory bedzie uzywany przez obiekt typu Conducotr do sprawdzenia stanu biletu
     public boolean isValidate() {
@@ -17,6 +19,10 @@ public class Ticket {
     public void setValidate(boolean validate) {
         isValidate = validate;
     }
+
+    public int getNumberOfPenalties()
+    { return numberOfPenalties; }
+
 
 
     // przejdz teraz spowrotem do maina czyli klasy TicketAndConductorMain
