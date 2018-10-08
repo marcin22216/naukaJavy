@@ -7,7 +7,7 @@ public class Ticket {
     // Oto to pole:
     private boolean isValidate;
 
-    private int numberOfPenalties;
+
 
 
     // to jest getter, ktory bedzie uzywany przez obiekt typu Conducotr do sprawdzenia stanu biletu
@@ -20,11 +20,6 @@ public class Ticket {
         isValidate = validate;
     }
 
-    public int getNumberOfPenalties()
-    { return numberOfPenalties; }
-
-    public void setNumberOfPenalties(int numberOfPenalties)
-    { this.numberOfPenalties = numberOfPenalties; }
 
 
 

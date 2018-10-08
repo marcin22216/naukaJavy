@@ -65,9 +65,7 @@ public class TicketAndConductorMain {
         //Tworze nowy obiekt Conducotr i przypisuje go do zmiennej
         Conductor conductor = new Conductor();
 
-        Ticket numberOfPenalties = new Ticket();
 
-        ticket.setNumberOfPenalties(2);
 
         //sprawdzam stan biletu przed skasowaniem:
         System.out.println("Wartosc pola 'isValidate' biletu PRZED skasowaniem rowna sie: " + ticket.isValidate());
