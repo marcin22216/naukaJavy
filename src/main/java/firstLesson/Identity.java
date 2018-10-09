@@ -12,7 +12,7 @@ public class Identity {
     public boolean isMan()
     { return isMan; }
     public void setMan(boolean isMan)
-    { isMan = isMan; }
+    { this.isMan = isMan; }
 
 
 

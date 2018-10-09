@@ -11,7 +11,7 @@ public class Selector {
 
         if (client.getHumanAge() < 26)
         {
-            if (client.isMan() == true)
+            if (client.isMan())
             {
                 System.out.println("Jest Pan zbyt mlody, aby wejsc");
             }
@@ -22,7 +22,7 @@ public class Selector {
         }
         else
         {
-            if (client.isMan() == true)
+            if (client.isMan())
             {
                 System.out.println("Zapraszam Pana");
             }

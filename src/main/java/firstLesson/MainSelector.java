@@ -8,11 +8,10 @@ public class MainSelector {
 
         Identity identity = new Identity();
 
-        Identity sex = new Identity();
 
-        identity.setHumanAge(20);
-        identity.isMan();
-        selector.letInTheClub(identity, sex);
+        identity.setHumanAge(30);
+        identity.setMan(true);
+        selector.letInTheClub(identity);
 
     }
 

@@ -10,7 +10,7 @@ public class Conductor {
 
 
     // jedna uwaga: dla mnie validateTicket znaczy tyle co po polsku: skasowac bilet
-    public void validateTicket(Ticket ticketForCheckAndValidate, Passenger penalty)
+    public void validateTicket(Ticket ticketForCheckAndValidate)
     {
         // jak widzisz powyzej ta metodka:
         // - jest publiczna czyli moze zostac wywolana na kazdym obiekcie tej klasy i wszedzie
@@ -32,10 +32,10 @@ public class Conductor {
         {
             System.out.println("Drogi pasazerze! Twoj bilet jest juz skasowany! Bedzie kara!");
             System.out.println();
-            int newPenalty = penalty.getNumberOfPenalties() + 1;
-            penalty.setNumberOfPenalties(newPenalty);
+//            int newPenalty = penalty.getNumberOfPenalties() + 1;
+//            penalty.setNumberOfPenalties(newPenalty);
             System.out.println();
-            System.out.println("Liczba Panskich kar wynosi: " + penalty.getNumberOfPenalties());
+//            System.out.println("Liczba Panskich kar wynosi: " + penalty.getNumberOfPenalties());
         }
         else
         {
