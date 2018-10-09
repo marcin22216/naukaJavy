@@ -10,6 +10,14 @@ public class TrafficCard {
 
     private boolean isValidate;
 
+    private int numberOfValidate = 30;
+
+    public int getNumberOfValidate()
+    { return numberOfValidate; }
+    public void subValidate()
+    { this.numberOfValidate--; }
+
+
     public String getName()
     { return name; }
     public void setName(String name)

@@ -18,11 +18,17 @@ public class CPMain {
 
         passenger.setMonthlyPass(mojaKarta);
         passenger.setPersonalData(mojDowod);
+        passenger.getMonthlyPass().setValidate(true);
+
+
 
 
         Conductor conductor = new Conductor();
 
         conductor.checkPassenger(passenger);
+        System.out.println("liczba kar:" + passenger.getPenalties());
+        System.out.println();
+        System.out.println("liczba skasowan:" + passenger.getMonthlyPass().getNumberOfValidate());
 
 
 

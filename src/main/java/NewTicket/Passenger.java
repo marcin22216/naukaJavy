@@ -6,6 +6,15 @@ public class Passenger {
 
     private TrafficCard monthlyPass;
 
+    private int penalties;
+
+
+
+    public int getPenalties()
+    { return penalties; }
+    public void addPenalty()
+    { this.penalties++; }
+
     public ID getPersonalData()
     { return personalData; }
     public void setPersonalData(ID personalData)
