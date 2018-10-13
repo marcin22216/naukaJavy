@@ -2,11 +2,6 @@ package Dryer;
 
 public class WasherDryer {
 
-    private Clothes ubraniaDoPrania;
-    {
-        this.ubraniaDoPrania = new Clothes();
-    }
-
 
    public void washing(Clothes ubraniaDoPrania){
         if (ubraniaDoPrania.isDirty())
