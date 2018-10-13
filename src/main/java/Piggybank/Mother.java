@@ -4,25 +4,24 @@ public class Mother {
 
     private Wallet wallet;
 
-    public Wallet getWallet() {
-        return wallet;
+    public Mother() {
+        this.wallet = new Wallet();
+        this.wallet.setMoney(50);
     }
 
-    public void setWallet(Wallet wallet) {
-        this.wallet = wallet;
-    }
+    public void dajKieszonkowe(Child child, double kwotaKieszonkowe) {
+        if (this.wallet.getMoney() >= kwotaKieszonkowe) {
+            child.przyjmijKieszonkowe(kwotaKieszonkowe);
 
-    public void checkAndGiveMoney(Child child)
-    {
-        if (wallet.getMoney() < 20)
-        {
-            System.out.println("Nie mam pieniedzy, nie dostaniesz kieszonkowego");
-        }
-        else
-        {
-            System.out.println("Oto twoje kieszonkowe");
+//            double nowaIloscKAsyWPortfelu = wallet.getMoney() - kwotaKieszonkowe;
+//            this.wallet.setMoney(nowaIloscKAsyWPortfelu);
 
+            this.wallet.odejmijKase(kwotaKieszonkowe);
+
+        } else {
+            System.out.println("Brak srodkow w porfelu. Mam tylko + " + this.wallet.getMoney());
         }
     }
 
 }
+

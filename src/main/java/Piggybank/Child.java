@@ -2,19 +2,21 @@ package Piggybank;
 
 public class Child {
 
+    private PiggyBank skarbonke;
 
-    public void checkAndAddCash(PiggyBank piggyBank, Mother mother)
+    public Child() {
+        this.skarbonke = new PiggyBank();
+    }
+
+    public void przyjmijKieszonkowe(double kieszonkowe)
     {
-        System.out.println("Mam w skarbonce:" + piggyBank.getCash());
+        System.out.println("Huura! Dostalem " + kieszonkowe + "zl kieszonkowego");
+        this.skarbonke.addCash(kieszonkowe);
+    }
 
-
-
-        System.out.println("wrzucam pieniadze");
-
-        piggyBank.takeCash();
-
-
-        System.out.println("teraz mam:" + piggyBank.getCash());
+    public double getMoneyFromPiggyBank()
+    {
+        return this.skarbonke.getCash();
     }
 
 }

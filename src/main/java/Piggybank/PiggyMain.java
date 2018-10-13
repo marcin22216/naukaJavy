@@ -5,17 +5,14 @@ public class PiggyMain {
     public static void main(String[] args) {
         Mother mother = new Mother();
         Child child = new Child();
-        Wallet wallet = new Wallet();
-        PiggyBank piggyBank = new PiggyBank();
 
-        mother.setWallet(wallet);
-        wallet.setMoney(50);
+        mother.dajKieszonkowe(child, 30);
+        mother.dajKieszonkowe(child, 15);
+        mother.dajKieszonkowe(child, 15);
 
-        mother.checkAndGiveMoney(child);
-        child.checkAndAddCash(piggyBank,mother);
-        piggyBank.takeCash();
+        double moneyFromPiggyBank = child.getMoneyFromPiggyBank();
 
-        System.out.println(wallet.getMoney());
+        System.out.println("Dziecko ma w skarbonce " + moneyFromPiggyBank + "zl");
 
     }
 

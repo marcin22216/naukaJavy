@@ -9,6 +9,10 @@ public class MainMachine {
 
         Coins coinCounter = new Coins();
 
+        coin.setCoin(7);
+        machine.checkCoin(coin);
+        coin.setCoin(5);
+        machine.checkCoin(coin);
         coin.setCoin(5);
         machine.checkCoin(coin);
 

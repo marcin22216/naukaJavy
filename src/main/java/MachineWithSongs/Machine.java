@@ -6,7 +6,7 @@ public class Machine {
     {
         System.out.println("Wrzuc 5 zl, to zagram Ci piosenke");
 
-        if (coin.getCoin() < 5)
+        if (coin.getCoin() < 5 || coin.getCoin() > 5)
         {
             System.out.println("Wrzuciles inna monete, Wrzuc 5 zl");
 
