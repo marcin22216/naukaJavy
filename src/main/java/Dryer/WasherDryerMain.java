@@ -17,6 +17,8 @@ public class WasherDryerMain {
 
         System.out.println("Ubranie przed praniem jest brudne? " + clothes.isDirty());
 
+        praczka.zamknijPralke();
+
 
 
         praczka.zrobPranie();

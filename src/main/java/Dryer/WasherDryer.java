@@ -25,7 +25,7 @@ public class WasherDryer {
 
    public void washingAndCheckingbeforeStart(Clothes ubraniaDoPrania)
    {
-       if (isOn = false)
+       if (isOn)
        {
            System.out.println("Pralka wylaczona, wlacz pralke");
        }
@@ -33,7 +33,7 @@ public class WasherDryer {
        {
            System.out.println("Kontunuuje prace");;
        }
-       if (isOpen = true)
+       if (isOpen)
        {
            System.out.println("Zamknij pralke");
 
