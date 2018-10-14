@@ -10,9 +10,14 @@ public class Praczka {
         this.washerDryer = new WasherDryer();
     }
 
+    public void zamknijPralke()
+    {
+        this.washerDryer.setOpen(false);
+    }
+
     public void zrobPranie()
     {
-        washerDryer.washing(clothes);
+        washerDryer.washingAndCheckingbeforeStart(clothes);
     }
 
     public Clothes getClothes() {
@@ -22,4 +27,6 @@ public class Praczka {
     public void setClothes(Clothes clothes) {
         this.clothes = clothes;
     }
+
+    public void wlaczPratke() { this.washerDryer.setOn(true);}
 }

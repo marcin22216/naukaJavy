@@ -4,6 +4,10 @@ public class Mother {
 
     private Wallet wallet;
 
+    public Wallet getWallet() {
+        return wallet;
+    }
+
     public Mother() {
         this.wallet = new Wallet();
         this.wallet.setMoney(50);
