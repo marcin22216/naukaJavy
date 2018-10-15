@@ -6,6 +6,10 @@ public class ConcreteMixer {
 
     private Palette palette;
 
+    public Builder getBuilder() {
+        return builder;
+    }
+
     public void makeConcrete(Palette buildingMaterials)
     {
         if (buildingMaterials.isSand() == false && buildingMaterials.isCement() == false && buildingMaterials.isWater() == false)
@@ -23,4 +27,7 @@ public class ConcreteMixer {
     }
 
 
+    public void setBuilder(Builder builder) {
+        this.builder = builder;
+    }
 }
