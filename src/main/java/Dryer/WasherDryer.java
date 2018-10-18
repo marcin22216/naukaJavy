@@ -4,6 +4,7 @@ public class WasherDryer {
 
     private boolean isOpen;
     private boolean isOn;
+    private WasherAutomat washerAutomat;
 
 
     public boolean isOpen()
@@ -42,6 +43,7 @@ public class WasherDryer {
        {
            if (ubraniaDoPrania.isDirty())
            {
+               washerAutomat.wash();
                System.out.println("Zaczynam pranie");
                ubraniaDoPrania.setDirty(false);
                System.out.println();

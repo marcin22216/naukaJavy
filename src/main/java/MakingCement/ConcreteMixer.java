@@ -12,16 +12,16 @@ public class ConcreteMixer {
 
     public void makeConcrete(Palette buildingMaterials)
     {
-        if (buildingMaterials.isSand() == false && buildingMaterials.isCement() == false && buildingMaterials.isWater() == false)
-        {
-            System.out.println("Nie mam czego mieszac");
-        }
-        else
+        if (buildingMaterials.isSand()&&buildingMaterials.isCement()&&buildingMaterials.isWater())
         {
             System.out.println("Zaczyman Prace");
             System.out.println("");
             System.out.println("Skonczone, mozna wyladowac");
             builder.loadContainer();
+        }
+        else
+        {
+            System.out.println("Nie mam czego mieszac");
         }
 
     }

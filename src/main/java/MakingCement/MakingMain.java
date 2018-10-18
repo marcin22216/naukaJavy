@@ -7,9 +7,9 @@ public class MakingMain{
         Palette palette = new Palette();
         ConcreteMixer concreteMixer = new ConcreteMixer();
         Container container = new Container();
-        palette.setCement(false);
+        palette.setCement(true);
         palette.setSand(true);
-        palette.setWater(false);
+        palette.setWater(true);
         concreteMixer.setBuilder(builder);
         builder.setContainer(container);
 
