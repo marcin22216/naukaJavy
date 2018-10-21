@@ -6,7 +6,7 @@ public class FigureMain {
 
         Schoolboy schoolboy = new Schoolboy();
 
-        schoolboy.setPoleFigury(new Triangle(3, 4));
+        schoolboy.setPoleFigury(new Trapeze(5, 7, 4));
         schoolboy.calculateTheField();
     }
 
