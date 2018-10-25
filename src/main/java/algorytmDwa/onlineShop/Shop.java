@@ -5,12 +5,12 @@ public class Shop {
     private Ball ball;
 
 
-    public void sprzedaj(Ball pilka)
+    public void sprzedaj()
     {
-        if (pilka.isBall())
+        if (this.ball.isBall())
         {
             System.out.println("Sprzedaje piłke");
-            pilka.setBall(false);
+            this.ball.setBall(false);
         }
         else
         {
@@ -18,16 +18,16 @@ public class Shop {
         }
     }
 
-    public void zaopatrz(Ball pilka)
+    public void zaopatrz()
     {
-        if (pilka.isBall())
+        if (this.ball.isBall())
         {
             System.out.println("jest piłka");
         }
         else
         {
             System.out.println("Zamawiam piłke");
-            pilka.setBall(true);
+            this.ball.setBall(true);
         }
 
 

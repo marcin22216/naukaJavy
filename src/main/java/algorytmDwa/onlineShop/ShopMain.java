@@ -6,10 +6,11 @@ public class ShopMain {
 
         Shop shop = new Shop();
         Ball ball = new Ball();
+        shop.setBall(new Ball());
         ball.setBall(false);
-        shop.sprzedaj(ball);
-        shop.zaopatrz(ball);
-        shop.sprzedaj(ball);
+        shop.sprzedaj();
+        shop.zaopatrz();
+        shop.sprzedaj();
     }
 
 }
