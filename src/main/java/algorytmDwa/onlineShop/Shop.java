@@ -7,10 +7,12 @@ public class Shop {
 
     public void sprzedaj()
     {
-        if (this.ball.isBall())
+
+        if (this.ball != null)
         {
             System.out.println("Sprzedaje piłke");
-            this.ball.setBall(false);
+            this.ball = null;
+
         }
         else
         {
@@ -20,21 +22,17 @@ public class Shop {
 
     public void zaopatrz()
     {
-        if (this.ball.isBall())
+        if (this.ball == null)
         {
-            System.out.println("jest piłka");
+            System.out.println("Zamawiam pilke");
+            this.ball = new Ball();
+
         }
-        else
-        {
-            System.out.println("Zamawiam piłke");
-            this.ball.setBall(true);
-        }
+
 
 
     }
 
 
-    public void setBall(Ball ball) {
-        this.ball = ball;
-    }
+
 }
