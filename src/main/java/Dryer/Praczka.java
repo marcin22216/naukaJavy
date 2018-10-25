@@ -10,6 +10,11 @@ public class Praczka {
         this.washerDryer = new WasherDryer();
     }
 
+    public Praczka(WasherDryer dupa)
+    {
+        this.washerDryer = dupa;
+    }
+
     public void zamknijPralke()
     {
         this.washerDryer.setOpen(false);

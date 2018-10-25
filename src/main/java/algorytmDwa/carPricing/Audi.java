@@ -40,11 +40,11 @@ public class Audi implements Vehicle {
             this.price = this.price + 1000;
         }
 
-        if (this.alu = true) {
+        if (this.alu) {
             this.price = this.price + 700;
         }
-        if (this.metalic = true) {
-            this.price = +1500;
+        if (this.metalic) {
+            this.price = this.price + 1500;
         }
         System.out.println("Cena wynosi: " + this.price + " ZL");
     }

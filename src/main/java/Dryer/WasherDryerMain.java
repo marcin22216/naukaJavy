@@ -6,7 +6,7 @@ public class WasherDryerMain {
     {
 
         // ctrl + pewy przycisk myszy
-
+//        Praczka dupa = new Praczka(new WasherDryer());
 
         Praczka praczka = new Praczka();
         Clothes clothes = new Clothes();

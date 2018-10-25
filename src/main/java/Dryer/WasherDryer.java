@@ -5,7 +5,10 @@ public class WasherDryer {
     private boolean isOpen;
     private boolean isOn;
     private WasherAutomat washerAutomat;
-
+    public WasherDryer()
+    {
+        this.washerAutomat = new WasherAutomat();
+    }
 
     public boolean isOpen()
     { return isOpen; }
@@ -61,4 +64,7 @@ public class WasherDryer {
    }
 
 
+    public void setWasherAutomat(WasherAutomat washerAutomat) {
+        this.washerAutomat = washerAutomat;
+    }
 }

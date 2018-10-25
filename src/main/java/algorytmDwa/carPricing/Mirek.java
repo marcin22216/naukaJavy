@@ -13,5 +13,7 @@ public class Mirek {
         this.wycenaAuta.pricingAuto();
     }
 
-
+    public Mirek() {
+        System.out.println("Jestem w konstruktorze bezparametrowym klasy Mirek");
+    }
 }
