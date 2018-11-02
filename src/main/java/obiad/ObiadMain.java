@@ -27,6 +27,10 @@ public class ObiadMain {
 
         talerz.setMojSchabowy(schabowy);
 
+        Suruwka suruwka = sklep.kupSuruwke();
+
+        talerz.setMojasurowka(suruwka);
+
 
 
 

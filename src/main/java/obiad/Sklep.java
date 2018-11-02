@@ -13,6 +13,11 @@ public class Sklep {
         return new Schabowy();
     }
 
+    public Suruwka kupSuruwke()
+    {
+        return new Suruwka();
+    }
+
     //kupSchaobwy()
 
     //kupSuruwke()
