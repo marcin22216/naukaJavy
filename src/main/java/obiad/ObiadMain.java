@@ -11,11 +11,14 @@ public class ObiadMain {
         Talerz talerz = new Talerz();
         Garnek garnek = new Garnek();
         Patelnia patelnia = new Patelnia();
+        Kucharz kucharz = new Kucharz();
 
 
         // ale tu juz program sobie sam tworzy potrzebne mu obiekty i robi na nich logike
 
         Ziemniaki ziemniaki = sklep.kupZiemniaki();
+
+        kucharz.obierzZiemniaki(ziemniaki);
 
         garnek.ugotujZiemniaki(ziemniaki);
 
@@ -23,11 +26,15 @@ public class ObiadMain {
 
         Schabowy schabowy = sklep.kupSchbowego();
 
+        kucharz.ubijKotleta(schabowy);
+
         patelnia.usmazKotleta(schabowy);
 
         talerz.setMojSchabowy(schabowy);
 
         Suruwka suruwka = sklep.kupSuruwke();
+
+        kucharz.pokrojSuruwke(suruwka);
 
         talerz.setMojasurowka(suruwka);
 
