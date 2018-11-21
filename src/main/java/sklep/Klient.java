@@ -11,7 +11,7 @@ public class Klient {
 
     public void kupProdukt(Produkt produktDoKupienia)
     {
-
+//
     }
 
 
