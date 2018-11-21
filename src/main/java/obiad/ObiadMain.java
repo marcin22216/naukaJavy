@@ -16,15 +16,15 @@ public class ObiadMain {
 
         // ale tu juz program sobie sam tworzy potrzebne mu obiekty i robi na nich logike
 
-        Ziemniaki ziemniaki = sklep.kupZiemniaki();
+        Ziemniak ziemniak = sklep.kupZiemniaki();
 
-        kucharz.obierzZiemniaki(ziemniaki);
+        kucharz.obierzZiemniaki(ziemniak);
 
-        garnek.ugotujZiemniaki(ziemniaki);
+        garnek.ugotujZiemniaki(ziemniak);
 
-        talerz.setMojeZiemniaki(ziemniaki);
+        talerz.setMojeZiemniak(ziemniak);
 
-        Schabowy schabowy = sklep.kupSchbowego();
+        Schabowy schabowy = sklep.kupSchabowego();
 
         kucharz.ubijKotleta(schabowy);
 
@@ -32,7 +32,7 @@ public class ObiadMain {
 
         talerz.setMojSchabowy(schabowy);
 
-        Suruwka suruwka = sklep.kupSuruwke();
+        Suruwka suruwka = sklep.kupSurowke();
 
         kucharz.pokrojSuruwke(suruwka);
 

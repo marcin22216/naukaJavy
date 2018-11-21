@@ -3,23 +3,20 @@ package obiad;
 public class Sklep {
 
 
-    public Ziemniaki kupZiemniaki()
+    public Ziemniak kupZiemniaki()
     {
-        return new Ziemniaki();
+        return new Ziemniak();
     }
 
-    public Schabowy kupSchbowego()
+    public Schabowy kupSchabowego()
     {
         return new Schabowy();
     }
 
-    public Suruwka kupSuruwke()
+    public Suruwka kupSurowke()
     {
         return new Suruwka();
     }
 
-    //kupSchaobwy()
-
-    //kupSuruwke()
 
 }

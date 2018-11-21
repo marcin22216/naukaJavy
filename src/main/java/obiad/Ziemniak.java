@@ -1,6 +1,6 @@
 package obiad;
 
-public class Ziemniaki {
+public class Ziemniak {
 
     private boolean ugotowane;
 

@@ -3,11 +3,11 @@ package obiad;
 public class Garnek {
 
 
-    public void ugotujZiemniaki(Ziemniaki ziemniakiDoUgotowania)
+    public void ugotujZiemniaki(Ziemniak ziemniakDoUgotowania)
     {
-        if (ziemniakiDoUgotowania.isObrane())
+        if (ziemniakDoUgotowania.isObrane())
         //to jest implementacja gotowania ziemniakow
-        ziemniakiDoUgotowania.setUgotowane(true);
+        ziemniakDoUgotowania.setUgotowane(true);
     }
 
 

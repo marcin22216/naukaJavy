@@ -3,7 +3,7 @@ package obiad;
 public class Talerz {
 
     private Schabowy mojSchabowy;
-    private Ziemniaki mojeZiemniaki;
+    private Ziemniak mojeZiemniak;
     private Suruwka mojasurowka;
 
 
@@ -15,12 +15,12 @@ public class Talerz {
         this.mojSchabowy = mojSchabowy;
     }
 
-    public Ziemniaki getMojeZiemniaki() {
-        return mojeZiemniaki;
+    public Ziemniak getMojeZiemniak() {
+        return mojeZiemniak;
     }
 
-    public void setMojeZiemniaki(Ziemniaki mojeZiemniaki) {
-        this.mojeZiemniaki = mojeZiemniaki;
+    public void setMojeZiemniak(Ziemniak mojeZiemniak) {
+        this.mojeZiemniak = mojeZiemniak;
     }
 
     public Suruwka getMojasurowka() {
