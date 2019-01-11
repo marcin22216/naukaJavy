@@ -16,10 +16,13 @@ public class Main {
         toolList.add(new Narzedzie("kombinerki"));
         toolList.add(new Narzedzie("Wiertarka"));
 
+
         for (Narzedzie narzedzie : toolList)
         {
             System.out.println(narzedzie.getTool());
         }
+
+        
 
     }
 

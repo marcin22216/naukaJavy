@@ -4,41 +4,18 @@ import java.util.List;
 
 public class Sprzedawca {
 
+    private Produkt kupionyProdukt;
 
-    private Sklep sklep;
+    Klient klient = new Klient();
 
-    public Sklep getSklep() {
-        return sklep;
+    public Sprzedawca(Klient klient) {
+        this.klient = klient;
     }
 
-    List<Produkt> listaProduktow = (List<Produkt>) sklep.magazyn.getListaProduktow();
-
-    public void pokazProdukty()
+    public void sprzedajProdukt(List<Produkt> listaProduktowNaSprzedaz)
     {
-        for (Produkt produkt : listaProduktow)
-        {
-            System.out.println(produkt.getNazwa());
-            System.out.println(produkt.getCena());
-        }
+        this.kupionyProdukt = listaProduktowNaSprzedaz.get(1);
     }
 
-    public void SprawdzIlosc()
-    {
 
-    }
-
-    public void sprzedajProdukt(Produkt produktNaSprzedaz, int ilosc)
-    {
-
-        if (produktNaSprzedaz.isProdukt() == true)
-        {
-            produktNaSprzedaz.odejmijIlosc(ilosc);
-
-            System.out.println("Oto" + produktNaSprzedaz.getNazwa());
-        }
-        else
-        {
-            System.out.println("Niestety nie ma" + produktNaSprzedaz.getNazwa());
-        }
-    }
 }

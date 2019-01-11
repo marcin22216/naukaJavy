@@ -4,35 +4,15 @@ public class Produkt {
 
     private String nazwa;
 
-    private int ilosc;
-
     private double cena;
 
-    private boolean isProdukt;
-
-    public void odejmijIlosc(int iloscDoOdjecia) { this.ilosc = this.ilosc - iloscDoOdjecia; }
-
-    public Produkt(String nazwa, int ilosc, double cena, boolean isProdukt) {
+    public Produkt(String nazwa, double cena) {
         this.nazwa = nazwa;
-        this.ilosc = ilosc;
         this.cena = cena;
-        this.isProdukt = isProdukt;
     }
 
     public String getNazwa() {
         return nazwa;
-    }
-
-    public void setNazwa(String nazwa) {
-        this.nazwa = nazwa;
-    }
-
-    public int getIlosc() {
-        return ilosc;
-    }
-
-    public void setIlosc(int ilosc) {
-        this.ilosc = ilosc;
     }
 
     public double getCena() {
@@ -43,11 +23,4 @@ public class Produkt {
         this.cena = cena;
     }
 
-    public boolean isProdukt() {
-        return isProdukt;
-    }
-
-    public void setProdukt(boolean produkt) {
-        isProdukt = produkt;
-    }
 }
