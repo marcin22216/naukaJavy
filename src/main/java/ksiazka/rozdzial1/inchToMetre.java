@@ -13,8 +13,8 @@ public class inchToMetre {
         counter2 = 0;
 
         for (inch = 1; inch <= 144; inch++){
-            metr = inch * 39.37;
-            System.out.println(metr + " cali to " + inch + " metrów ");
+            metr = inch / 39.37;
+            System.out.println(inch + " cali to " + metr + " metrów ");
 
             counter2++;
 
