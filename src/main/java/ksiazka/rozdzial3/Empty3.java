@@ -9,4 +9,7 @@ public class Empty3 {
         for (i = 1; i <= 5; sum += i++) ;
         System.out.println("Suma wynosi " + sum);
     }
+
+
+    // suma += i  <=>  suma = suma + i
 }
